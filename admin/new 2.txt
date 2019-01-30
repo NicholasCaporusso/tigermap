@@ -1,0 +1,223 @@
+,	
+	"layers":[
+		"layer1": {
+				"old_ID": 1,
+				"name":"Academics",
+				"description":"All academic buildings",
+				"shape_IDs":[2,3,4,6,8,9,10,11,13,14,16,17,33,40]		
+			},		
+		"layer2": {
+			"old_ID": 2,		
+			"name":"Athletics",
+			"description":"All athletic buildings",
+			"shape_IDs":[1,30,31,39,40]
+		},		
+		"layer3": {
+			"old_ID": 3,		
+			"name":"Residence Buildings",
+			"description":"All residence buildings",
+			"shape_IDs":[20,21,22,23,24,25,26,27,28,29]
+		},		
+		"layer4": {
+			"old_ID": 4,		
+			"name":"Service Buildings",
+			"description":"All service buildings",
+			"shape_IDs":[7,18,19,32,34,35,36,37]
+		},		
+		"layer5": {
+			"old_ID": 5,		
+			"name":"Places of Interest",
+			"description":"All places of interest buildings",
+			"shape_IDs":[5,6,12,14,15,38]
+		},		
+		"layer6": {
+			"old_ID": 6,		
+			"name":"Food",
+			"description":"All main food location buildings",
+			"shape_IDs":[5,14,21,26]
+		},		
+		"layer7": {
+			"old_ID": 7,		
+			"name":"Test All Data Types",
+			"description":"Display one of each data type for testing",
+			"shape_IDs":[2,1,1,2,1,3]
+		}
+	],
+	"tours":[
+		"tour1":{
+			"old_ID": 1,		
+			"name":"Campus Tour",
+			"description":"FHSU Campus Picture Tour",
+			"shape_IDs":[3,4,5,6,7,8,9,10,11,2]
+		},
+		"tour2":{
+			"old_ID": 2,		
+			"name":"Video Tour",
+			"description":"FHSU Campus Video Tour",
+			"shape_IDs":[12,13,14,15,16,17,18,19,20,2]
+		}
+	],
+	"layersMenuOptions":[
+		"1":{
+			"old_ID": 1,
+			"label":"Academics",
+			"layer_IDs":[1,2]
+		},
+		"2":{
+			"old_ID": 2,		
+			"label":"Athletics",
+			"layer_IDs":[2]
+		},
+		"3":{
+			"old_ID": 3,		
+			"label":"Residence Buildings",
+			"layer_IDs":[3]
+		},
+		"4":{
+			"old_ID": 4,		
+			"label":"Service Buildings",
+			"layer_IDs":[4]
+		},
+		"5":{
+			"old_ID": 5,		
+			"label":"Places of Interest",
+			"layer_IDs":[5]
+		},
+		"6":{
+			"old_ID": 6,		
+			"label":"Food",
+			"layer_IDs":[6]
+		},
+		"7":{
+			"old_ID": 7,		
+			"label":"All FHSU Buildings",
+			"layer_IDs":[1,2,3,4,5,6]
+		},
+		"8":{
+			"old_ID": 8,		
+			"label":"Test All Data Types",
+			"layer_IDs":[7]
+		}
+	],
+	"toursMenuOptions":[
+		{
+			"old_ID": 1,
+			"label":"Campus Tour",
+			"tour_IDs":[1]
+		},
+		{
+			"old_ID": 2,		
+			"name":"Video Tour",
+			"tour_IDs":[2]
+		}
+	],
+	"studentData":{
+			"firstName":"Monica",
+			"lastName":"Michaud",
+			"email":"mrmmichaud@mail.fhsu.edu",
+			"classes":[ 
+				{
+					"classCode":"ENG 126",
+					"name":"Introduction to Literature",
+					"instructor":"Scott, Pauline",
+					"building":"RH",
+					"room":"369",
+					"latLng": {"lat": 38.87405,"lng": -99.33962},
+					"days":[
+						{"MON":"12:30 PM - 1:20 PM"},
+						{"TUE":""},
+						{"WED":"12:30 PM - 1:20 PM"},
+						{"THU":""},
+						{"FRI":"12:30 PM - 1:20 PM"},
+						{"SAT":""},
+						{"SUN":""}
+					]
+				},
+				 {
+					"classCode":"GSCI 120",
+					"name":"World Geography",
+					"instructor":"Schafer, Thomas",
+					"building":"RH",
+					"room":"201",
+					"latLng": {"lat": 38.87405,"lng": -99.33962},
+					"days":[
+						{"MON":""},
+						{"TUE":"12:00 PM - 1:15 PM"},
+						{"WED":""},
+						{"THU":"12:00 PM - 1:15 PM"},
+						{"FRI":""},
+						{"SAT":""},
+						{"SUN":""}
+					]
+				}				
+			]
+		},
+	"mapSettings":[
+		{
+			"old_ID":  1,
+			"zoom":  17 ,
+			"mapCenter":  {"lat": 38.87359,"lng": -99.34427} ,
+			"buildingSelectedBorderSize": 4 ,
+			"buildingSelectedBorderColor":"#000000" ,
+			"buildingSelectedBorderOpacity":  1.0,
+			"buildingSelectedFillColor":"#eaaf0f",
+			"buildingSelectedFillOpacity":  0.9,
+
+			"buildingUnselectedBorderSize":  3,
+			"buildingUnselectedBorderColor":"#eaaf0f" ,
+			"buildingUnselectedBorderOpacity": 1.0 ,
+			"buildingUnselectedFillColor":"#000000",
+			"buildingUnselectedFillOpacity": 0.75 ,
+
+			"tourPathSize":  5,
+			"tourPathColor":"#eaaf0f",
+			"tourPathOpacity":  1.0,
+			"tourFillColor":"#000000",
+			"tourFillOpacity":  0.75,
+
+			"parkingSelectedBorderSize": 3 ,
+			"parkingSelectedBorderColor":"#ffffff" ,
+			"parkingSelectedBorderOpacity": 1.0 ,
+			"parkingSelectedFillColor":"#eaaf0f",
+			"parkingSelectedFillOpacity":  0.75,
+
+			"parkingUnselectedBorderSize":  3,
+			"parkingUnselectedBorderColor":"#eaaf0f",
+			"parkingUnselectedBorderOpacity":  1.0,
+			"parkingUnselectedFillColor":"#000000",
+			"parkingUnselectedFillOpacity":  0.75
+		}
+	],
+	"mapStyles":[
+		{
+			"featureType":"poi.attraction",
+			"elementType":"labels",
+			"stylers":[ { "visibility":"off" } ]
+		},
+		{
+			"featureType":"poi.business",
+			"elementType":"labels",
+			"stylers":[ { "visibility":"off" } ]
+		},
+		{
+			"featureType":"poi.government",
+			"elementType":"labels",
+			"stylers":[ { "visibility":"off" } ]
+		},
+		{
+			"featureType":"poi.park",
+			"elementType":"labels",
+			"stylers":[ { "visibility":"off" } ]
+		},
+		{
+			"featureType":"poi.school",
+			"elementType":"labels",
+			"stylers":[ { "visibility":"off" } ]
+		},
+		{
+			"featureType":"poi.sports_complex",
+			"elementType":"labels",
+			"stylers":[ { "visibility":"off" } ]
+		}
+	]
+}
